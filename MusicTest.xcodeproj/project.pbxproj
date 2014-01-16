@@ -21,6 +21,9 @@
 		0005BABB18879CDD00A8E36E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0005BA9D18879CDD00A8E36E /* UIKit.framework */; };
 		0005BAC318879CDD00A8E36E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0005BAC118879CDD00A8E36E /* InfoPlist.strings */; };
 		0005BAC518879CDD00A8E36E /* MusicTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005BAC418879CDD00A8E36E /* MusicTestTests.m */; };
+		0005BAD11887A3F900A8E36E /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0005BACE1887A3F900A8E36E /* music1.mp3 */; };
+		0005BAD21887A3F900A8E36E /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0005BACF1887A3F900A8E36E /* music2.mp3 */; };
+		0005BAD31887A3F900A8E36E /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0005BAD01887A3F900A8E36E /* music3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		0005BAC018879CDD00A8E36E /* MusicTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicTestTests-Info.plist"; sourceTree = "<group>"; };
 		0005BAC218879CDD00A8E36E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0005BAC418879CDD00A8E36E /* MusicTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicTestTests.m; sourceTree = "<group>"; };
+		0005BACE1887A3F900A8E36E /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		0005BACF1887A3F900A8E36E /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		0005BAD01887A3F900A8E36E /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		0005BA9F18879CDD00A8E36E /* MusicTest */ = {
 			isa = PBXGroup;
 			children = (
+				0005BACE1887A3F900A8E36E /* music1.mp3 */,
+				0005BACF1887A3F900A8E36E /* music2.mp3 */,
+				0005BAD01887A3F900A8E36E /* music3.mp3 */,
 				0005BAA818879CDD00A8E36E /* AppDelegate.h */,
 				0005BAA918879CDD00A8E36E /* AppDelegate.m */,
 				0005BAAB18879CDD00A8E36E /* Main.storyboard */,
@@ -230,6 +239,9 @@
 			files = (
 				0005BAB218879CDD00A8E36E /* Images.xcassets in Resources */,
 				0005BAA418879CDD00A8E36E /* InfoPlist.strings in Resources */,
+				0005BAD31887A3F900A8E36E /* music3.mp3 in Resources */,
+				0005BAD11887A3F900A8E36E /* music1.mp3 in Resources */,
+				0005BAD21887A3F900A8E36E /* music2.mp3 in Resources */,
 				0005BAAD18879CDD00A8E36E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
